@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp", "ChatApp\ChatApp.csproj", "{FCC8D0A1-7091-44D7-B488-EE9C3BC12E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{90369988-4CDF-454D-9CAE-8A73E4B3BE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day02", "Day02", "{2429E333-35AD-4D01-A43B-EB98928BB175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubs", "Hubs\Hubs.csproj", "{A796DE88-F2DB-49C0-A605-5C3466862923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC8D0A1-7091-44D7-B488-EE9C3BC12E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC8D0A1-7091-44D7-B488-EE9C3BC12E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC8D0A1-7091-44D7-B488-EE9C3BC12E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC8D0A1-7091-44D7-B488-EE9C3BC12E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90369988-4CDF-454D-9CAE-8A73E4B3BE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90369988-4CDF-454D-9CAE-8A73E4B3BE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90369988-4CDF-454D-9CAE-8A73E4B3BE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90369988-4CDF-454D-9CAE-8A73E4B3BE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A796DE88-F2DB-49C0-A605-5C3466862923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A796DE88-F2DB-49C0-A605-5C3466862923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A796DE88-F2DB-49C0-A605-5C3466862923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A796DE88-F2DB-49C0-A605-5C3466862923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A796DE88-F2DB-49C0-A605-5C3466862923} = {2429E333-35AD-4D01-A43B-EB98928BB175}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70B66CF1-8220-4357-A948-E2D60518BB99}
+	EndGlobalSection
+EndGlobal

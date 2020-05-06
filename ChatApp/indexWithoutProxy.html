@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="/Scripts/jquery-3.4.1.js"></script>
+    <script src="/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script>
+        var chatHub;
+
+        $(function () {
+            var connection = $.hubConnection();
+
+            //chatHub = $.connection.chat;
+            chatHub = connection.createHubProxy("chat");
+
+
+            //chatHub.client.receiveMessage = onReceive;
+            chatHub.on("receiveMessage", onReceive);
+
+            //$.connection.hub.logging = true;
+            connection.logging = true;
+
+            //$.connection.hub.start();
+            connection.start();
+        });
+
+        var onReceive = function (msg) {
+            $("#divConv").append("<div>" + msg + "</div>");
+        };
+
+        var onSend = function () {
+            var msg = $("#txtMessage").val();
+            //chatHub.server.sendMessage(msg);
+            chatHub.invoke("sendMessage", msg);
+        };
+
+
+        var onJoinGroup = function () {
+            var group = $("#txtGroupNema").val();
+            chatHub.server.joinGroup(group);
+        };
+
+        var onSendGroup = function () {
+            var group = $("#txtGroupNema").val();
+            var msg = $("#txtMessageGroup").val();
+            chatHub.server.sendGroupMessage(group,msg);
+        };
+
+    </script>
+</head>
+<body>
+    <label>Message</label>
+
+    <!--Send-->
+    <input type="text" id="txtMessage" />
+    <input type="button" id="btnSend" value="Send" onclick="onSend()" />
+
+    <!--Join & Send to Group-->
+    <input type="text" id="txtGroupNema" />
+    <input type="button" id="btnJoin" value="Join Group" onclick="onJoinGroup()" />
+
+    <input type="text" id="txtMessageGroup" />
+    <input type="button" id="btnSendGroup" value="Send to group" onclick="onSendGroup()" />
+
+    <div id="divConv">
+
+    </div>
+</body>
+</html>

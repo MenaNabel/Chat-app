@@ -1,0 +1,15 @@
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\WinClient.exe.config
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\WinClient.exe
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\WinClient.pdb
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Mina\source\repos\ChatApp\WinClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.csprojAssemblyReference.cache
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.Form1.resources
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.Properties.Resources.resources
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.csproj.GenerateResource.cache
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.csproj.CopyComplete
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.exe
+C:\Users\Mina\source\repos\ChatApp\WinClient\obj\Debug\WinClient.pdb
